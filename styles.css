@@ -1,0 +1,124 @@
+/* encabezado */
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  }
+  
+  header a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* contenedor principal */
+  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  /* títulos */
+  h1, h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  
+  img {
+    max-width: 45%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  
+  /* párrafo */
+  p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* enlaces */
+  a {
+  color: #007bff;
+  }
+  
+  a:hover {
+  text-decoration: none;
+  color: #0056b3;
+  }
+  
+  /* lista */
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  font-size: 1rem;
+  }
+  
+  ul li {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  }
+
+
+  /* formulario */
+  form {
+  margin-top: 20px;
+  clear: both;
+  }
+  
+  .form-group {
+  margin-bottom: 20px;
+  }
+  
+  label {
+  font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+  background-color: #0056b3;
+  }
